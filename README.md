@@ -110,6 +110,11 @@ least some parts of it might be reusable in similar studies.
     - Input: JSON file `extract.json`
     - Output: HTML files
 
+  - [`check-per.py`](misc/check-per.py):
+    calculate statistics on "per" abbreviations.
+    - Input: JSON file `extract2.json`
+    - Output: plain text to standard output.
+
 ## Contact and copyright
 
 * Jukka Suomela, https://jukkasuomela.fi/
