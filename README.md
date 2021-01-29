@@ -66,7 +66,9 @@ least some parts of it might be reusable in similar studies.
     - Output: JSON file `extract2.json`, and plain text to standard
       output.
 
-* `misc`: miscellaneous tools
+* `misc`: miscellaneous tools (mainly used for data exploration during
+  the project, but not needed for reproducing the results of the
+  study)
 
   - [`outline.py`](misc/outline.py):
     print out the structure of each XML file.
