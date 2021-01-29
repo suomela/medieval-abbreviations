@@ -62,7 +62,8 @@ least some parts of it might be reusable in similar studies.
     Cluster together spelling variants of the same word and calculate
     the frequencies.
     - Input: JSON file `extract.json`.
-    - Output: JSON file `extract2.json`.
+    - Output: JSON file `extract2.json`, and plain text to standard
+      output.
 
 * `misc`: miscellaneous tools
 
