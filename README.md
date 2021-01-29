@@ -72,7 +72,12 @@ least some parts of it might be reusable in similar studies.
     - Input: XML files.
     - Output: plain text to standard output.
 
-
+  - [`pairs.py`](misc/pairs.py) and
+    [`pairs-confidence.py`](misc/pairs-confidence.py):
+    calculate human-readable tables that show the consistency of
+    abbreviation practices across different texts.
+    - Input: JSON file `extract2.json`
+    - Output: HTML files
 
 ## Contact and copyright
 
