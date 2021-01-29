@@ -81,6 +81,11 @@ least some parts of it might be reusable in similar studies.
     - Input: `summary.json`.
     - Output: plain text to standard output.
 
+  - [`plot.py`](misc/plot.py):
+    draw diagrams that show abbreviation density.
+    - Input: JSON file `extract.json`
+    - Output: HTML files
+
   - [`pairs.py`](misc/pairs.py) and
     [`pairs-confidence.py`](misc/pairs-confidence.py):
     calculate human-readable tables that show the consistency of
