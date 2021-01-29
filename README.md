@@ -45,7 +45,8 @@ least some parts of it might be reusable in similar studies.
   - [`align.py`](alignment/align.py):
     try to align the texts automatically.
     - Input: XML files.
-    - Output: Excel file `jburgundy.xlsx`.
+    - Output: Excel file `jburgundy.xlsx` and an overview file
+      `summary.json`.
 
   - [`align-explain.py`](alignment/align-explain.py):
     as above, but produce additional output.
@@ -70,6 +71,12 @@ least some parts of it might be reusable in similar studies.
   - [`outline.py`](misc/outline.py):
     print out the structure of each XML file.
     - Input: XML files.
+    - Output: plain text to standard output.
+
+  - [`analyse.py`](misc/analyse.py):
+    construct a tree of texts based on the results of the automatic
+    alignment.
+    - Input: `summary.json`.
     - Output: plain text to standard output.
 
   - [`pairs.py`](misc/pairs.py) and
