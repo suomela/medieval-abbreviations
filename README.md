@@ -115,6 +115,10 @@ least some parts of it might be reusable in similar studies.
     - Input: JSON file `extract2.json`
     - Output: plain text to standard output.
 
+## Dependencies
+
+* [Junicode font](https://junicode.sourceforge.io/)
+
 ## Contact and copyright
 
 * Jukka Suomela, https://jukkasuomela.fi/
