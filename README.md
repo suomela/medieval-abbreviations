@@ -30,7 +30,12 @@ least some parts of it might be reusable in similar studies.
    machine-readable representation of the data (one record = one
    aligned, annotated word).
 
-6. Visualization.
+6. Clustering words: [`freq.py`](parsing/freq.py) groups together
+   words that are spelling variants of the same word, and calculates
+   the frequency of each word (across all spelling variants) and
+   stores also this information in a JSON file.
+
+7. Visualization.
 
 
 ## Code
@@ -53,10 +58,19 @@ least some parts of it might be reusable in similar studies.
     - Input: XML files and the annotated version of `jburgundy.xlsx`.
     - Output: JSON file `extract.json`.
 
+  - [`freq.py`](parsing/freq.py):
+    Cluster together spelling variants of the same word and calculate
+    the frequencies.
+    - Input: JSON file `extract.json`.
+    - Output: JSON file `extract2.json`.
+
 * `misc`: miscellaneous tools
 
   - [`outline.py`](misc/outline.py):
     print out the structure of each XML file.
+    - Input: XML files.
+    - Output: plain text to standard output.
+
 
 
 ## Contact and copyright
