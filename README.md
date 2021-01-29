@@ -37,7 +37,6 @@ least some parts of it might be reusable in similar studies.
 
 7. Visualization.
 
-
 ## Code
 
 * `alignment`: automatic alignment of the texts
@@ -66,9 +65,21 @@ least some parts of it might be reusable in similar studies.
     - Output: JSON file `extract2.json`, and plain text to standard
       output.
 
-* `misc`: miscellaneous tools (mainly used for data exploration during
-  the project, but not needed for reproducing the results of the
-  study)
+* `visualization`: generating visualizations
+
+  - [`visualize-prepare.py`](visualization/visualize-prepare.py):
+    Find optimal orderings of elements for visualizations.
+    - Input: JSON file `extract2.json`.
+    - Output: JSON files `optimized.json` and `optimized-text.json`.
+
+  - [`visualize.py`](visualization/visualize.py):
+    Generate visualizations
+    - Input: JSON files `extract.json`, `optimized.json`, and
+      `optimized-text.json`.
+    - Output: PNG and PDF figures.
+
+* `misc`: miscellaneous tools (used for data exploration during the
+  project, but not needed for reproducing the results of the study)
 
   - [`outline.py`](misc/outline.py):
     print out the structure of each XML file.
