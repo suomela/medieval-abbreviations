@@ -37,22 +37,26 @@ least some parts of it might be reusable in similar studies.
 
 * `alignment`: automatic alignment of the texts
 
-  - `align.py`: try to align the texts automatically.
+  - [`align.py`](alignment/align.py):
+    try to align the texts automatically.
     - Input: XML files.
     - Output: Excel file `jburgundy.xlsx`.
 
-  - `align-explain.py`: as above, but produce additional output.
+  - [`align-explain.py`](alignment/align-explain.py):
+    as above, but produce additional output.
 
 * `parsing`: parsing the results
 
-  - `extract.py`: Read the manual annotations and turn the alignment
-    results into a machine-readable JSON file.
+  - [`extract.py`](parsing/extract.py):
+    Read the manual annotations and turn the alignment results into a
+    machine-readable JSON file.
     - Input: XML files and the annotated version of `jburgundy.xlsx`.
     - Output: JSON file `extract.json`.
 
 * `misc`: miscellaneous tools
 
-  - `outline.py`: print out the structure of each XML file.
+  - [`outline.py`](misc/outline.py):
+    print out the structure of each XML file.
 
 
 ## Contact and copyright
