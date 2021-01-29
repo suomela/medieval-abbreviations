@@ -16,8 +16,8 @@ least some parts of it might be reusable in similar studies.
 
 1. Input data: XML files with texts.
 
-2. Automatic alignment: `alignment/align.py` generates an Excel
-   file with the alignment results.
+2. Automatic alignment: [`align.py`](alignment/align.py) generates an
+   Excel file with the alignment results.
 
 3. Manual alignment: the Excel file is edited to correct mistakes in
    the automatic alignment.
@@ -25,10 +25,10 @@ least some parts of it might be reusable in similar studies.
 4. Annotation of abbreviations: the Excel file is edited to classify
    abbreviations (e.g. lexical vs. function words).
 
-5. Parsing results: `parse/extract.py` reads the XML files and the
-   edited Excel file, and creates a JSON file with a machine-readable
-   representation of the data (one record = one aligned, annotated
-   word).
+5. Parsing results: [`extract.py`](parsing/extract.py) reads the XML
+   files and the edited Excel file, and creates a JSON file with a
+   machine-readable representation of the data (one record = one
+   aligned, annotated word).
 
 6. Visualization.
 
